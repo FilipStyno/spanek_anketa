@@ -21,7 +21,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
 .form-container {
     background-color: #fff;
     padding: 20px;
@@ -132,6 +131,7 @@ tr:hover {
 }
 
 /* Přidáváme trochu paddingu na stránky pro lepší vzhled */
+
 .container {
     max-width: 960px;
     margin: auto;
@@ -145,8 +145,8 @@ footer {
     background-color: #666;
     color: #fff;
     text-align: center;
-    padding: 10px;
     position: fixed;
+    padding: 10px;
     bottom: 0;
     width: 100%;
 }
