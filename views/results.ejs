@@ -2,25 +2,47 @@
 <html lang="cs">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Výsledky ankety</title>
-    <link rel="stylesheet" href="css/styles.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spánek anketa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-    <h1>Výsledky ankety</h1>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Spánek anketa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Anketa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-current="page" href="results">Výsledky</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container">
+        <h2>Výsledky</h2>
         <table border="1">
             <tr>
                 <th>ID</th>
                 <th>Datum</th>
                 <th>Čas</th>
-                <th>Hodiny týdně</th>
-                <th>Zaměření TV</th>
-                <th>Význam sportu</th>
-                <th>Sportovní vzor</th>
+                <th>Hodiny</th>
+                <th>Poloha</th>
+                <th>Pocit ráno</th>
+                <th>Polštář</th>
             </tr>
             <% responses.forEach(function(response) { const date=new Date(response.timestamp); const dateString=`${('0'
                 + date.getDate()).slice(-2)}.${('0' + (date.getMonth() + 1)).slice(-2)}.${date.getFullYear()}`; const
@@ -40,13 +62,13 @@
                         <%= response.answers.hours %>
                     </td>
                     <td>
-                        <%= response.answers.sport %>
+                        <%= response.answers.poloha %>
                     </td>
                     <td>
-                        <%= response.answers.importance %>
+                        <%= response.answers.feeling %>
                     </td>
                     <td>
-                        <%= response.answers.roleModel %>
+                        <%= response.answers.polstar %>
                     </td>
                 </tr>
                 <% }); %>

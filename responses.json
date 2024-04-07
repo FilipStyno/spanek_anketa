@@ -1,72 +1,32 @@
 [
   {
-    "id": 1712410390586,
-    "timestamp": "2024-04-06T13:33:10.586Z",
+    "id": 1712516210327,
+    "timestamp": "2024-04-07T18:56:50.327Z",
     "answers": {
-      "hours": "2",
-      "sport": "florbal",
-      "importance": "4",
-      "roleModel": "Jarda Jagr"
+      "hours": "1.1",
+      "poloha": "břicho",
+      "feeling": "10",
+      "polstar": "Ne"
     }
   },
   {
-    "id": 1712410409013,
-    "timestamp": "2024-04-06T13:33:29.013Z",
+    "id": 1712516229019,
+    "timestamp": "2024-04-07T18:57:09.019Z",
     "answers": {
-      "hours": "1.6",
-      "sport": "plavání",
-      "importance": "1",
-      "roleModel": "Filda Hrivnacky"
+      "hours": "1.4",
+      "poloha": "záda",
+      "feeling": "10",
+      "polstar": "Ne"
     }
   },
   {
-    "id": 1712410426828,
-    "timestamp": "2024-04-06T13:33:46.828Z",
+    "id": 1712516301737,
+    "timestamp": "2024-04-07T18:58:21.737Z",
     "answers": {
-      "hours": "20",
-      "sport": "gymnastika",
-      "importance": "5",
-      "roleModel": "Tomas Rehulek"
-    }
-  },
-  {
-    "id": 1712410530438,
-    "timestamp": "2024-04-06T13:35:30.438Z",
-    "answers": {
-      "hours": "441",
-      "sport": "lyžování",
-      "importance": "0",
-      "roleModel": "Tomas Bielak"
-    }
-  },
-  {
-    "id": 1712411915064,
-    "timestamp": "2024-04-06T13:58:35.065Z",
-    "answers": {
-      "hours": "0.1",
-      "sport": "bruslení",
-      "importance": "5",
-      "roleModel": "Jaromir Soukup"
-    }
-  },
-  {
-    "id": 1712412191596,
-    "timestamp": "2024-04-06T14:03:11.596Z",
-    "answers": {
-      "hours": "23",
-      "sport": "lyžování",
-      "importance": "2",
-      "roleModel": "Ester Ledecka"
-    }
-  },
-  {
-    "id": 1712415329616,
-    "timestamp": "2024-04-06T14:55:29.616Z",
-    "answers": {
-      "hours": "5.2",
-      "sport": "volejbal",
-      "importance": "3",
-      "roleModel": "Pepa"
+      "hours": "10",
+      "poloha": "břicho",
+      "feeling": "1.5",
+      "polstar": "Ano"
     }
   }
 ]
